@@ -1,3 +1,15 @@
+@font-face {
+    font-family: boldHeading;
+    src: url(../fonts/PTSerif-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: regularText;
+    src: url(../fonts/PTSerif-Regular.ttf);
+    font-weight: bold;
+}
+  
 body {
     padding: 0;
     margin: 0;
@@ -12,6 +24,10 @@ header {
     justify-content: space-between;
     padding: 1em 5%;
     border-bottom: 4px solid #BA494C;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 header img {
@@ -55,3 +71,106 @@ nav ul li a {
     background: none;
     font-size: 0.9em;
 }
+
+.search-section {
+    width: 39%;
+    height: 100%;
+    background-image: url(../images/pizza.png);
+    background-repeat: no-repeat, repeat;
+    position: fixed;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-section h1 {
+    font-size: 2em;
+    color: white;
+    font-family: boldHeading;
+}
+
+.find-recipe-box {
+    background-color: #FFFCF2;
+    display: flex;
+    align-items: center;
+    padding: 0.5em 0.5em;
+    opacity: 0.7;
+    margin: 1em;
+}
+
+.find-recipe-box img {
+    width: 1.5em;
+    padding-right: 0.5em;
+    cursor: pointer;
+}
+
+.find-recipe-box input {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 0.9em;
+    width: 18em;
+}
+
+main {
+    margin-top: 7em;
+    margin-bottom: 4em;
+    width: 60%;
+    text-align: center;
+    float: right;
+}
+
+.recipe-section h1 {
+    color: #4A2C2C;
+    font-size: 2em;
+    font-family: boldHeading;
+}
+
+.recipe-list {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 5em;
+    padding-right: 5em;
+    margin-top: 2em;
+}
+
+.recipe-info {
+    padding: 1em;
+}
+
+.recipe-overview {
+    width: 12em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #FFFCF2;
+}
+
+.recipe-overview img {
+    width: 100%;
+}
+  
+.meal-type {
+    font-size: 0.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #BA494C;
+    font-family: boldHeading;
+}
+  
+.meal-name {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #4A2C2C;
+    font-family: boldHeading;
+}
+  
+.cooking-time {
+    font-size: 0.8em;
+    color: #6b6b6b;
+    font-family: regularText;
+}
+
