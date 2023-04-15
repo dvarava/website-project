@@ -184,6 +184,7 @@ nav ul li a {
     font-weight: bold;
     text-transform: uppercase;
     color: #BA494C;
+    font-weight: bolder;
 }
   
 .meal-name {
@@ -317,8 +318,12 @@ input[type="submit"]:focus {
     text-align: center;
 }
 
+#tips-list {
+    margin-top: 4em;
+    text-align: justify;
+}
+
 footer {
-    clear: both;
     border-top: 4px solid #BA494C;
     padding: 10px 0 5px 0;
     position: relative;
