@@ -13,11 +13,13 @@
 </head>
 <body>
     <aside class="search-section">
-        <h1>Find a Recipe</h1>
-        <div class="find-recipe-box">
+        <figcaption>
+            <h1>Find a Recipe</h1>
+        </figcaption>
+        <figure class="find-recipe-box">
             <i><img src="../website-project/images/search-icon.png" alt="search icon"></i>
             <input type="search" placeholder="Search...">
-        </div>
+        </figure>
     </aside>
 
     <header>
@@ -25,77 +27,77 @@
 
         <nav>
             <ul>
-                <li><a href="../website-project/index.html">Home</a></li>
+                <li><a style="color: #FFFCF2; background-color: #ba494db0; padding: 0.4em 0.8em;" href="../website-project/index.html">Home</a></li>
                 <li><a href="../website-project/recipes.html">Recipes</a></li>
-                <li><a href="../website-project/cooking-tips.html">Cooking Tips</a></li>
+                <li><a href="../website-project/cooking-tips.html">Tips</a></li>
                 <li><a href="../website-project/ingridients.html">Ingridients</a></li>
             </ul>
         </nav>
-        <div class="search-box">
+        <form class="search-box">
             <input type="search" placeholder="Search...">
-            <i><img src="../website-project/images/search-icon.png" alt="search icon"></i>
-        </div>
+            <button><img src="../website-project/images/search-icon.png" alt="search icon"></button>
+        </form>
     </header>
 
     <main class="home-main">
         <section class="recipe-section">
             <h1>Most Saved Recipes</h1>
 
-            <div class="recipe-list">
-                <div class="recipe-overview">
+            <ul class="recipe-list">
+                <li class="recipe-overview">
                     <img src="../website-project/images/dinner.png" alt="Steak with Potatoes">
-                    <div class="recipe-info">
-                        <p class="meal-type">Dinner</p>
+                    <article class="recipe-info">
+                        <h3 class="meal-type">Dinner</h3>
                         <h2 class="meal-name">Steak with Potatoes</h2>
                         <p class="cooking-time">30 minutes</p>
-                    </div>
-                </div>
+                    </article>
+                </li>
 
-                <div class="recipe-overview">
+                <li class="recipe-overview">
                     <img src="../website-project/images/breakfast.png" alt="Avocado & Bacon Eggs">
-                    <div class="recipe-info">
+                    <article class="recipe-info">
                         <p class="meal-type">Breakfast</p>
                         <h2 class="meal-name">Avocado & Bacon Eggs</h2>
                         <p class="cooking-time">25 minutes</p>
-                    </div>
-                </div>
+                    </article>
+                </li>
 
-                <div class="recipe-overview">
+                <li class="recipe-overview">
                     <img src="../website-project/images/lunch.png" alt="Mushroom Potatoes">
-                    <div class="recipe-info">
+                    <article class="recipe-info">
                         <p class="meal-type">Lunch</p>
                         <h2 class="meal-name">Mushroom Potatoes</h2>
                         <p class="cooking-time">15 minutes</p>
-                    </div>
-                </div>
+                    </article>
+                </li>
 
-                <div class="recipe-overview">
+                <li class="recipe-overview">
                     <img src="../website-project/images/dessert.png" alt="Pancakes with Honey">
-                    <div class="recipe-info">
+                    <article class="recipe-info">
                         <p class="meal-type">Dessert</p>
                         <h2 class="meal-name">Pancakes with Honey</h2>
                         <p class="cooking-time">5 minutes</p>
-                    </div>
-                </div>
+                    </article>
+                </li>
 
-                <div class="recipe-overview">
+                <li class="recipe-overview">
                     <img src="../website-project/images/snacks.png" alt="Fruit and Cheese plate">
-                    <div class="recipe-info">
+                    <article class="recipe-info">
                         <p class="meal-type">Snacks</p>
                         <h2 class="meal-name">Fruit and Cheese plate</h2>
                         <p class="cooking-time">20 minutes</p>
-                    </div>
-                </div>
+                    </article>
+                </li>
 
-                <div class="recipe-overview">
+                <li class="recipe-overview">
                     <img src="../website-project/images/drinks.png" alt="Pineapple & ginger punch">
-                    <div class="recipe-info">
+                    <article class="recipe-info">
                         <p class="meal-type">Drinks</p>
                         <h2 class="meal-name">Pineapple & ginger punch</h2>
                         <p class="cooking-time">12 minutes</p>
-                    </div>
-                </div>
-            </div>
+                    </article>
+                </li>
+            </ul>
         </section>
     </main>
 </body>

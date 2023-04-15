@@ -14,8 +14,17 @@ html {
     scroll-behavior: smooth;
 }
 
-p {
-    font-family: regularText;
+ul {
+    padding-inline-start: 0;
+}
+
+figure {
+    margin: 0;
+    background-color: #FFFCF2;
+}
+
+figcaption {
+    padding: 1em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -31,6 +40,7 @@ body {
     padding: 0;
     margin: 0;
     background-color: #FFF2D7;
+    font-family: regularText;
 }
 
 header {
@@ -53,17 +63,17 @@ header img {
 
 nav ul {
     display: flex;
-    padding-inline-start: 0;
+    margin: 0 2em;
 }
 
 nav ul li {
     list-style: none;
+    margin: 0 2em;
 }
 
 nav ul li a {
     font-size: 1.1em;
     text-decoration: none;
-    padding: 0 1.6em;
     color: #4A2C2C;
 }
 
@@ -77,9 +87,13 @@ nav ul li a {
     padding: 0.3em 0.8em;
 }
 
+.search-box button {
+    all: unset;
+    cursor: pointer;
+}
+
 .search-box img {
     width: 1.5em;
-    cursor: pointer;
 }
 
 .search-box input {
@@ -165,7 +179,6 @@ nav ul li a {
     width: 12em;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     background-color: #FFFCF2;
 }
@@ -175,11 +188,10 @@ nav ul li a {
 }
   
 .meal-type {
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-weight: bold;
     text-transform: uppercase;
     color: #BA494C;
-    font-family: boldHeading;
 }
   
 .meal-name {
@@ -194,7 +206,7 @@ nav ul li a {
 }
 
 .recipes-main, .cooking-tips-main {
-    margin-top: 8em;
+    margin-top: 9em;
     margin-bottom: 4em;
 }
 
@@ -218,18 +230,12 @@ nav ul li a {
     flex: 1em;
 }
 
-.explore-box p {
-    color: #4A2C2C;
-    font-family: boldHeading;
-}
-
 .explore-box a {
     text-decoration: none;
     color: #FFFCF2;
     background-color: #BA494C;
     padding: 0.4em;
-    font-family: regularText;
-    margin-right: 1em;
+    margin: 0.5em;
 }
 
 .explore-recipes-section {
@@ -266,7 +272,7 @@ nav ul li a {
 }
 
 .tip-overview img {
-    object-fit: contain;
+    object-fit: cover;
     width: 15em;
 }
 
@@ -275,9 +281,9 @@ nav ul li a {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 850px) {
     .search-section {
-        margin-top: -0.5em;
+        margin-top: -2em;
         margin-bottom: 2em;
         width: 100%;
         height: 15em;
