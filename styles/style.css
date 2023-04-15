@@ -144,14 +144,6 @@ nav ul li a {
     width: 18em;
 }
 
-.home-main {
-    margin-top: 7em;
-    margin-bottom: 4em;
-    width: 60%;
-    text-align: center;
-    float: right;
-}
-
 .recipe-section h1 {
     color: #4A2C2C;
     font-size: 2em;
@@ -203,11 +195,6 @@ nav ul li a {
 .cooking-time {
     font-size: 0.8em;
     color: #6b6b6b;
-}
-
-.recipes-main, .cooking-tips-main {
-    margin-top: 9em;
-    margin-bottom: 4em;
 }
 
 .heading-section {
@@ -279,6 +266,85 @@ nav ul li a {
 
 .tip-info {
     padding: 1em;
+}
+
+.google-maps-section {
+    margin: 4em auto;
+    width: 70%;
+}
+
+.subscribe-section form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 5px;
+}
+  
+span {
+    color: red;
+}
+  
+input[type="text"], input[type="email"] {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 20em;
+}
+  
+input[type="submit"] {
+    background-color: #BA494C;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+input[type="submit"]:hover {
+    background-color: #ba494db0;
+}
+  
+input[type="submit"]:focus {
+    outline: none;
+}  
+
+.subscribe-section {
+    text-align: center;
+}
+
+footer {
+    clear: both;
+    border-top: 4px solid #BA494C;
+    padding: 10px 0 5px 0;
+    position: relative;
+    bottom: -20px;
+    width: 100%;
+    background-color: #FFFCF2;
+    text-align: center;
+}
+
+footer ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 5px;
+    padding-inline-start: 0px;
+}
+
+footer ul li a {
+    color: #4A2C2C;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+footer p {
+    font-size: 12px;
+    margin-top: 2em;
+    color: #4A2C2C;
 }
 
 
