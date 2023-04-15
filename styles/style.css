@@ -323,6 +323,23 @@ input[type="submit"]:focus {
     text-align: justify;
 }
 
+.table-section {
+    padding-top: 3em;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.table-section table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+.table-section table td, th {
+    border: 1px solid #4A2C2C;
+    padding: 8px;
+    text-align: left;
+}
+
 footer {
     border-top: 4px solid #BA494C;
     padding: 10px 0 5px 0;
