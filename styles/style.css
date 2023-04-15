@@ -274,6 +274,7 @@ nav ul li a {
 .tip-overview img {
     object-fit: cover;
     width: 15em;
+    float: left;
 }
 
 .tip-info {
