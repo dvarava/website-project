@@ -327,7 +327,7 @@ footer {
     border-top: 4px solid #BA494C;
     padding: 10px 0 5px 0;
     position: relative;
-    bottom: -20px;
+    bottom: 0;
     width: 100%;
     background-color: #FFFCF2;
     text-align: center;
@@ -351,7 +351,6 @@ footer p {
     margin-top: 2em;
     color: #4A2C2C;
 }
-
 
 @media only screen and (max-width: 850px) {
     .search-section {
