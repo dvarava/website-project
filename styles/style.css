@@ -14,7 +14,7 @@ html {
     scroll-behavior: smooth;
 }
 
-ul {
+ul, ol {
     padding-inline-start: 0;
 }
 
@@ -143,6 +143,11 @@ header img {
     background: none;
     font-size: 0.9em;
     width: 18em;
+}
+
+main {
+    margin-top: 9em;
+    margin-bottom: 4em;
 }
 
 .recipe-section h1 {
