@@ -23,10 +23,6 @@ figure {
     background-color: #FFFCF2;
 }
 
-figcaption {
-    padding: 1em;
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-family: boldHeading;
     color: #4A2C2C;
@@ -256,6 +252,11 @@ main {
 .tips-section {
     margin: 0 auto;
     width: 80%;
+    text-align: center;
+}
+
+.tips-list {
+    text-align: start;
 }
 
 .tip-overview {
@@ -278,6 +279,13 @@ main {
 .google-maps-section {
     margin: 4em auto;
     width: 70%;
+    text-align: center;
+}
+
+#map {
+    width: 100%;
+    height: 20em;
+    border: 2px solid #4A2C2C;
 }
 
 .subscribe-section form {
@@ -325,9 +333,14 @@ input[type="submit"]:focus {
     text-align: center;
 }
 
-#tips-list {
+#ordered-list {
     margin-top: 4em;
     text-align: justify;
+}
+
+#steak-video {
+    width: 100%;
+    height: 25em;
 }
 
 .table-section {
